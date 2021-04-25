@@ -1,4 +1,3 @@
-/* Styles the header container and removes the white space around */
 .header{
     margin-top: -8px;
     margin-left: -8px;
@@ -6,12 +5,11 @@
     padding-bottom: 50px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./Images/backgrounds/landing.jpg);
+    background-image: url(landing.jpg);
     overflow: hidden;
 
 }
 
-/* Centers the logo */
 .header-logo{
     display: flex;
     justify-content: center;
@@ -20,14 +18,12 @@
     margin: -60px;
 }
 
-/* Adjusts the menu hamburger icon*/
 #menu-icon > img{
     width: 80px;
     padding-top: 80px;
     padding-left: 100px;
 }
 
-/* Styles the header heading paragraph */
 #header-heading > p{
     color: white;
     font-size: 65px;
@@ -37,7 +33,6 @@
     margin-top: 45px;
 }
 
-/* Aligns content in a row */
 .banner{
     display: flex;
     flex-direction: row;
@@ -48,7 +43,6 @@
     margin-right: -8px;
 }
 
-/* Styles the text */
 #banner-first, #breakfast, #lunch, #dinner{
     font-size: 42px;
     box-sizing: border-box;
@@ -56,19 +50,16 @@
     height: 200px;
 }
 
-/* centers the text */
 #banner-first{
     text-align: center;
 }
 
-/* Changes the background color */
 #happy-hour{
     color: #505050;
     background-color: #E4E5E7;
     padding: 26px;
 }
 
-/* Changes the background color */
 #party-time{
     color: white;
     background-color: #f15b29;
@@ -76,7 +67,6 @@
     margin-top: -42px;
 }
 
-/* Breakfast image */
 #breakfast{
     background-image: url(./Images/foodtop/breakfast.jpg);
     background-repeat: no-repeat;
@@ -90,26 +80,22 @@
     background-size: cover;
 }
 
-/* Dinner image */
 #dinner{
     background-image: url(./Images/foodtop/dinner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* centers the text */
 #breakfast, #lunch, #dinner{
     text-align: center;
     padding: 70px;
     color: white;
 }
 
-/* increases the fast food's top margin */
 .fast-food{
     margin-top: 65px;
 }
 
-/* Styles the fast food's images and adds a box shadow around */
 #fast-food-images{
     display: flex;
     flex-direction: column;
@@ -122,20 +108,17 @@
     box-shadow: 0 0 5px #B6B6B6;
 }
 
-/* Styles the fast foos text */
 #fast-food-text{
     padding-right: 190px;
     padding-top: 20px;
     color: #505050;
 }
 
-/* Styles the  fast foods headings */
 #fast-food-text > h1, #drinks-text > h1{
     font-size: 45px;
     color: #505050;
 }
 
-/* Styles the button */
 #button-food{
     color: #f15b29;
     font-size: 24px;
@@ -150,18 +133,15 @@
     padding-bottom: 10px;
 }
 
-/* Syles the buttons icons */
 #button-food > i, #button-drinks > i{
     padding-left: 10px;
 }
 
-/* Clears the float */
 .drinks{
     clear: both;
     margin-top: 65px;
 }
 
-/* Styles the drinks images section */
 #drinks-images{    
     display: flex;
     flex-direction: row;
@@ -174,14 +154,12 @@
     box-shadow: 0 0 5px #B6B6B6;
 }
 
-/* Styles the text */
 #drinks-text{
     padding-left: 190px;
     padding-top: 20px;
     color: #505050;
 }
 
-/* Styles the button */
 #button-drinks{
     color: #f15b29;
     font-size: 24px;
@@ -211,12 +189,10 @@
     overflow: hidden;
 }
 
-/* Styles the background */
 .slideshow-box{
     background-color: white;
 }
 
-/* Alligns content in columns */
 #slideshow-menu{
     display: flex;
     justify-content: space-around;
@@ -225,7 +201,6 @@
     background-color: white;
 }
 
-/* Styles all the headings in the slideshow menu */
 #slideshow-menu > h1:nth-child(2), #slideshow-menu > h1:nth-child(3), #slideshow-menu > h1:nth-child(4){
     box-sizing: content-box;
     border:solid #b6b6b6 1px;
@@ -238,14 +213,12 @@
     margin-bottom: 0px;
 }
 
-/* Selects the first element */
 #slideshow-menu > h1:first-child{
     padding-left: 80px;
     padding-right: 80px;
     color: #f15b29;
 }
 
-/* Allows content to ba aligned in columns */
 #slideshow-images{
     display: flex;
     justify-content: space-around;
@@ -253,20 +226,16 @@
     padding-top: 60px;
     padding-bottom: 10px;
 }
-
-/* Styles the content in the slidwshow-images */
 #slideshow-images > p:nth-child(1), #slideshow-images > p:nth-child(5){
     color: #f15b29;
     padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
 
-    /* This is for sizing the angle brackets */
     transform: scale(1.5,4);
     font-weight:bolder
 }
 
-/* Allows content to be aligned in column */
 #slideshow-text{
     display: flex;
     justify-content: space-around;
@@ -276,17 +245,14 @@
     color: #f15b29;
 }
 
-/* Selects the first paragraph */
 #slideshow-text > p:nth-child(1){
     padding-left: 47px;
 }
 
-/* Selects the third element which is a paragraph */
 #slideshow-text > p:nth-child(3){
     padding-right: 47px;
 }
 
-/* Styles the .customer-feedback-section */
 .customer-feedback-section{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -294,7 +260,6 @@
     padding-right: 200px;
 }
 
-/* Alows content to be in a column */
 .customer-feedback{
     display:flex;
     justify-content: space-around;
@@ -305,23 +270,19 @@
     padding-bottom: 24px;
 }
 
-/* styles the customer-feedback-section h3 and paragraphs */
 .customer-feedback > #customers > h3, .customer-feedback > #customers > p, .customer-feedback > #about-menu >p{
     color:#505050;
 }
 
-/* Styles the customer-feedback-section container headings */
 .customer-feedback > #customers > h1, .customer-feedback > #about-menu > h1{
     color: #f15b29;
 }
 
-/* Styles id customers */
 #customers{
     padding-right: 48px;
     margin-top: 20px;
 }
 
-/* Style's the about menu id */
 #about-menu{
     width: 400px;
     padding-left: 42px;
@@ -330,23 +291,19 @@
     margin-top: 20px;
 }
 
-/* Increases the font-size in the paragaraphs located in id customers */
 #customers > p{
     font-size: 18px;
 }
 
-/* Styles the About Menu text */
 #about-menu > p{
     font-size: 18px;
 }
 
-/* Aligns the profile icons in a column */
 #profile-pictures{
     display: flex;
     justify-content:center;
 }
 
-/* Increases spacing between profile icons */
 #profile-pictures > p:first-child, #profile-pictures > img:nth-child(2), #profile-pictures > img:nth-child(3), #profile-pictures > img:nth-child(4){
     padding-right: 20px;
 }
@@ -355,17 +312,14 @@
     height: 52px;
 }
 
-/* This is for styling the angle brackets */
 #profile-pictures > p:first-child, #profile-pictures > p:last-child{
     color: #f15b29;
     margin-top: 22px;
 
-    /* This is for sizing the angle brackets */
     transform: scale(1.5,4);
     font-weight:bolder
 }
 
-/* Footer newsletter styling */
 .footer-1{
     background-image:url(./Images/backgrounds/subscribe.jpg);
     margin-left: -8px;
@@ -380,7 +334,6 @@
     overflow: hidden;
 }
 
-/* Allows newsletter to be placed in the center */
 .newsletter{
     display: flex;
     flex-direction: column;
@@ -389,18 +342,15 @@
     box-sizing: border-box;
 }
 
-/* Changes the heading color to white */
 .newsletter > h1{
     color: white;
     font-size: 32px;
 }
 
-/* increases input size */
 input{
     font-size: 20px;
 }
 
-/* Adjusts the width, height and color of the text input */
 input[type="text"]{
     background: rgba(255, 255, 255, .2);
     color: white;
@@ -413,7 +363,6 @@ input[type="text"]{
 
 }
 
-/* Adjusts the width, height and color of the button */
 input[type="button"]{
     color: white;
     background-color: #f15b29;
@@ -431,21 +380,18 @@ input[type="button"]{
     background-size: cover;
     overflow: hidden;
     
-    /* Removes white spacing around the container*/
     margin-left: -8px; 
     margin-right: -8px;
     margin-bottom: -8px;
     padding-top: 40px;
     padding-bottom: 20px;
 
-    /* Aligns content in the center */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-/* Styles the burger icon and MENU text */
 #burger-menu{
     display: flex;
     justify-content: space-around;
@@ -454,19 +400,16 @@ input[type="button"]{
     margin-bottom: -12px;
 }
 
-/* Styles the burger icon */
 #burger-menu > img{
     height: 45px;
     padding-right: 14px;
     margin-top: 30px;
 }
 
-/* Increases the MENU title size */
 #burger-menu > h1{
     font-size: 44px;
 }
 
-/* Styles the Footer-2's second child */
 .footer-container > p:nth-child(2){
     color: white;
     text-align: center;
@@ -474,16 +417,14 @@ input[type="button"]{
     margin-top: 0;
 }
 
-/* Aligns the icons in a row */
 #icons{
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
 }
 
-/* Styles the text at the bottom*/
-.footer-container > p:nth-child(4){
+.footer > p:nth-child(4){
     color: white;
     text-align: center;
     margin-top: 50px;
-}
+landingp}
