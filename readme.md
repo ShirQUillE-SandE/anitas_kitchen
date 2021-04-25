@@ -1,5 +1,5 @@
-# Michael Learns TO Rock Band Fan Site
-#### A fan site for one direction band to help me practice concepts in web development, 16 Apr 2021
+Anita's Kitchen
+#### A fan site for one direction band to help me practice concepts in web development, 25th Apr 2021
 #### By **Shirquille Sande**
 ## Description
 
@@ -11,12 +11,12 @@ This application is a fan site for One Direction band. It contains information a
 ## Known Bugs
 
 ## Technologies Used
-HTML and CSS
+HTML and CSS and some JAVAscript
 ## Support and contact details
-victor.kiptoo@student.moringaschool.com
+shirquille.sande@student.moringaschool.com
 
 ##My gh-pages link
-[https://kiptoo462.github.io/One-Direction-Ban]
+https://shirquille-sande.github.io/anitas_kitchen/
 ### License
 *Licensed under the [MIT LICENSE](LICENSE.txt)*
-Copyright (c) 2021 **Kiptoo Victor*
+Copyright (c) 2021 **Shirquille Sande**
