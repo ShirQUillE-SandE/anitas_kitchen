@@ -427,9 +427,7 @@ input[type="button"]{
     border-radius: 5px;
 }
 
-/* Second part of the footer */
-
-.footer-2{
+.ftr{
     margin-top: 8px;
     background-color: #f15b29;
     background-size: cover;
